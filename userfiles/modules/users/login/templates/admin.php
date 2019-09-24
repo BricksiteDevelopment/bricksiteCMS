@@ -64,14 +64,13 @@ $current_lang = current_lang();
     <?php
 
     if (!isset(mw()->ui->admin_logo_login_link) or mw()->ui->admin_logo_login_link == false) {
-        $link = "https://microweber.com";
-
+        $link = "https://bricksite.dk";
     } else {
         $link = mw()->ui->admin_logo_login_link;
     }
 
     ?>
-    <a href="<?php print $link; ?>" target="_blank" id="login-logo"> <img src="<?php print mw()->ui->admin_logo_login(); ?>" alt="Logo"> <span class="mw-sign-version">v. <?php print MW_VERSION; ?></span> </a>
+    <a href="<?php print $link; ?>" target="_blank" id="login-logo"> <img src="userfiles/modules/microweber/images/logo-login-dark.svg" alt="Logo"> <span class="mw-sign-version">v. <?php print MW_VERSION; ?></span> </a>
     <div class="mw-ui-box">
         <div class="mw-ui-box-content" id="admin_login">
             <?php if ($user != false): ?>

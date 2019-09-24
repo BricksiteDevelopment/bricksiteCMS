@@ -9,7 +9,7 @@ class Ui
     public $admin_logo_login = '';
     public $admin_logo_login_link = false;
     public $logo_live_edit = '';
-    public $brand_name = 'Microweber';
+    public $brand_name = 'Bricksite';
     public $powered_by_link = false;
     public $disable_powered_by_link = false;
     public $disable_marketplace = false;
@@ -211,11 +211,11 @@ class Ui
         if ($this->disable_powered_by_link != false) {
             return;
         }
-        $link = '<span class="mw-powered-by"><a href="https://microweber.org/" title="Website Builder">Website Builder</a> <span>by</span> <a href="https://microweber.org" target="_blank" title="Microweber CMS">Microweber</a></span>';
+        $link = '<span class="mw-powered-by"><a href="https://bricksite.dk" title="Website Builder">Website Builder</a> <span>by</span> <a href="https://bricksite.dk" target="_blank" title="Bricksite CMS">Bricksite</a></span>';
         if ($this->powered_by_link != false) {
             $link = $this->powered_by_link;
         }
 
-        return $link;
+        //return $link;
     }
 }

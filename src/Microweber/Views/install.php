@@ -247,7 +247,7 @@
             <?php if ($pre_configured): ?>
                 <h2>Setup your website</h2>
             <?php else: ?>
-                <a href="http://Microweber.com" target="_blank" id="logo"><span class="mw-icon-mw"></span></a>
+                <a href="http://Microweber.com" target="_blank" id="logo"><img class="mw-icon-mw" src="userfiles/modules/microweber/images/bs_favicon.png"></a>
             <?php endif; ?>
 
 
