@@ -63,3 +63,5 @@
 <?php endif; ?>
 
 <?php include(__DIR__ . DS . 'footer.php'); ?>
+
+<!-- Testing changes for bricksite fork -->
