@@ -321,12 +321,8 @@ if (isset($_COOKIE['mw_exp'])) {
                 <div class="toolbar-sections-tabs">
                     <ul>
                         <li class="create-content-dropdown">
-                            <a href="javascript:;" class="tst-logo" title="Microweber">
-                                <?php if (mw()->ui->logo_live_edit != false) : ?>
-                                    <span class="white-label-logo" style="background-image:url('<?php print mw()->ui->logo_live_edit ?>');"></span>
-                                <?php else: ?>
-                                    <span class="mw-icon-mw"></span>
-                                <?php endif; ?>
+                            <a href="javascript:;" class="tst-logo" title="Bricksite">
+                                <span class="white-label-logo" style="margin: 8px 8px 8px 12px; background-image:url('userfiles/modules/microweber/images/bs_favicon.png');"></span>
                                 <span class="mw-icon-dropdown"></span>
                             </a>
                             <div class="mw-dropdown-list create-content-dropdown-list">
