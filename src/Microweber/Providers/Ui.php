@@ -12,7 +12,7 @@ class Ui
     public $brand_name = 'Bricksite';
     public $powered_by_link = false;
     public $disable_powered_by_link = false;
-    public $disable_marketplace = false;
+    public $disable_marketplace = true;
     public $marketplace_provider_id = false;
     public $marketplace_access_code = false;
     public $enable_service_links = true;
