@@ -5,12 +5,12 @@ if(defined('LARAVEL_START')){
 }
 
 if (version_compare(phpversion(), "5.6.0", "<=")) {
-    exit("Error: You must have PHP version 5.6 or greater to run Microweber");
+    exit("Error: You must have PHP version 5.6 or greater to run Bricksite CMS");
 }
 
 
 if (!function_exists('openssl_random_pseudo_bytes')) {
-    exit('Error: OpenSSL PHP extension is required to run Microweber');
+    exit('Error: OpenSSL PHP extension is required to run Bricksite CMS');
 }
 
 

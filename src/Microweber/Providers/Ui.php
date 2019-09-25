@@ -16,7 +16,7 @@ class Ui
     public $marketplace_provider_id = false;
     public $marketplace_access_code = false;
     public $enable_service_links = true;
-    public $custom_support_url = false;
+    public $custom_support_url = 'https://help.bricksite.net/';
 
     public $modules_ui = array();
 
@@ -82,12 +82,13 @@ class Ui
         $this->module('admin.dashboard.menu.third', $admin_dashboard_btn);*/
 
 
-
+/*
         $admin_dashboard_btn = array();
         $admin_dashboard_btn['view'] = 'marketplace';
         $admin_dashboard_btn['text'] = _e('Go to Marketplace', true);
         $admin_dashboard_btn['icon_class'] = 'mai-market2';
         $this->module('admin.dashboard.menu.third', $admin_dashboard_btn);
+        */
 
 
 
@@ -119,7 +120,7 @@ class Ui
 
         }
 
-
+/*
         $notif_count_html = false;
         if (intval($notif_count) > 0) {
             $notif_count_html = '<sup class="mw-notification-count">'.$notif_count.'</sup>';
@@ -130,12 +131,14 @@ class Ui
         $admin_dashboard_btn['icon_class'] = 'mw-icon-updates';
         $this->module('admin.dashboard.menu.third', $admin_dashboard_btn);
 
+*/
+        /*
         $admin_dashboard_btn = array();
         $admin_dashboard_btn['link'] = 'https://microweber.com/contact-us';
         $admin_dashboard_btn['text'] = _e('Suggest a feature', true);
         $admin_dashboard_btn['icon_class'] = 'mw-icon-suggest';
         $this->module('admin.dashboard.menu.third', $admin_dashboard_btn);
-
+*/
         $fields = array(
             'price' => 'Price',
             'text' => 'Text Field',

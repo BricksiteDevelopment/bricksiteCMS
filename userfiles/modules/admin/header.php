@@ -286,7 +286,7 @@ $shop_disabled = get_option('shop_disabled', 'website') == 'y';
 
                     <?php if (mw()->ui->enable_service_links): ?>
                         <?php if (mw()->ui->custom_support_url): ?>
-                            <a href="<?php print mw()->ui->custom_support_url ?>" class="mw-ui-btn">
+                            <a href="<?php print mw()->ui->custom_support_url ?>" target="_blank" class="mw-ui-btn">
                                 <?php _e("Support"); ?>
                             </a>
                         <?php else: ?>
@@ -644,7 +644,7 @@ $shop_disabled = get_option('shop_disabled', 'website') == 'y';
 
                             <?php if (mw()->ui->enable_service_links): ?>
                                 <?php if (mw()->ui->custom_support_url): ?>
-                                    <li><a href="<?php print mw()->ui->custom_support_url ?>"><strong><?php _e("Support"); ?></strong></a></li>
+                                    <li><a target="_blank" href="<?php print mw()->ui->custom_support_url ?>"><strong><?php _e("Support"); ?></strong></a></li>
                                 <?php else: ?>
                                     <li><a href="javascript:;" onmousedown="mw.contactForm();"><strong><?php _e("Support"); ?></strong></a></li>
                                 <?php endif; ?>
